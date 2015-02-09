@@ -6,7 +6,7 @@ Mini Project that uses the full stack.
 ##Objectives
 You'll create a really simple Angular app that calculates loan payment amounts based on an interest rate retrieved from a simple API that you'll also create.
 
-##Step 1: Set up front end
+<!--##Step 1: Set up front end
 
 We're going to set up our front end part of this app by having express fetch files and relay them to the client. We'll also make a really basic Angular app that will calcaulate payments for a loan.
 
@@ -25,13 +25,14 @@ public/js/services/bank-service.js
 
  * Create a server.js file that serves the static files found in the "public" folder. Hint: `app.use(express.static(__dirname+'/public'));`
 
-Verify that it's working by running your script, `node server.js` and opening the page in the browser, e.g. http://localhost:8080
+Verify that it's working by running your script, `node server.js` and opening the page in the browser, e.g. http://localhost:8080 
+
 
 ##Step 2: Set up back end
 
 * In server.js, create an endpoint that responds to a GET request on the `/interest_rate` route
-* The interest_rate route should return a random number between 1 and 20, with two decimal places.
-* Test your endpoint using Postman to make sure it returns the interest rate in a JSON object
+* The interest_rate route should return a random number between 0 and 20, with two decimal places.
+* Test your endpoint using Postman to make sure it returns the interest rate in a JSON object -->
 
 ##Step 3: Connect front end to back end
 
@@ -46,4 +47,4 @@ A = P*r*t
 //P = Principal amount
 //r = interest rate
 //t = time (in years)
-```
+```  -->

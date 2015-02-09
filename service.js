@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var port = 8080;
 
-app.use(express.static(_dirname + '/ public'));
+app.use(express.static(__dirname + '/public'));
 
 app.get('/interest_rate', function(req, res) { //GET endpoint
 	var randomNumber = Math.floor(Math.random() * 2000) / 100
@@ -14,7 +14,7 @@ app.listen(port, function() {
 })
 
 
-var P = ;
-var r = ;
-var t = ;
-var A = P * r * t;
+// var P = ;
+// var r = ;
+// var t = ;
+// var A = P * r * t;
