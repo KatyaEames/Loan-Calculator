@@ -10,8 +10,8 @@ app.controller('MainCtrl', function($scope, bankService) {
 	$scope.calculatePAyment = function() {
 		var totalOwed = 
 		Number($scope.principal) + 
-		((Number($scope.interest_rate) / 100) * 
-			Number($scope.principal * 4); 
+		(4 * (Number($scope.interest_rate) / 100) * 
+			Number($scope.principal * 4)
 			$scope.monthly_payment = $scope.totalOwed / 48
 		)
 	}
