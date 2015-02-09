@@ -12,3 +12,9 @@ app.get('/interest_rate', function(req, res) { //GET endpoint
 app.listen(port, function() {
 	console.log('Now listening on port ' + port);
 })
+
+
+var P = ;
+var r = ;
+var t = ;
+var A = P * r * t;
